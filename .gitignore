@@ -1,0 +1,11 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+
+# Môi trường ảo (nếu bạn dùng)
+venv/
+env/
+.venv/
