@@ -12,13 +12,14 @@ This project analyzes the macroeconomic factors influencing US imports from Viet
 
 ## 🛠️ Methodology
 
-1.  [cite_start]**Dataset:** Time-series data (1994-2024) including US Imports, US GDP, Vietnam GDP, MFN Tariff Rates, and BTA policy flag. 
-2.  [cite_start]**Target Variable:** `Ln(US_import)` (Natural log of import value) to stabilize variance and linearize the growth trend. 
+1.  **Dataset:** Time-series data (1994-2024) including US Imports, US GDP, Vietnam GDP, MFN Tariff Rates, and BTA policy flag. 
+2.  **Target Variable:** `Ln(US_import)` (Natural log of import value) to stabilize variance and linearize the growth trend. 
 3.  **Feature Engineering:** Created `GDP_Ratio` and `Tariff_Change` to capture relative economic size and the impact of policy adjustments.
 4.  **Supervised Models:** Evaluated Linear, Polynomial, Ridge, Lasso, and Decision Tree Regression using a chronological train-test split (Train: 1994-2019, Test: 2020-2024).
-5.  [cite_start]**Unsupervised Analysis:** Used PCA for dimensionality reduction and K-Means clustering (validated with the Elbow Method) to identify trade pattern shifts.
+5.  **Unsupervised Analysis:** Used PCA for dimensionality reduction and K-Means clustering (validated with the Elbow Method) to identify trade pattern shifts.
 
 ## 📂 Repository Structure
+
 vietnam-us-trade-forecast/
 ├── data/
 │   └── Data_submission.xlsx  
