@@ -20,9 +20,10 @@ This project analyzes the macroeconomic factors influencing US imports from Viet
 
 ## 📂 Repository Structure
 
+```
 vietnam-us-trade-forecast/
 ├── data/
-│   └── Data_submission.xlsx  
+│   └── Data_submission.xlsx
 ├── notebooks/
 │   └── trade_analysis_notebook.ipynb
 ├── report/
@@ -31,6 +32,7 @@ vietnam-us-trade-forecast/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ## 🚀 How to Run
 
